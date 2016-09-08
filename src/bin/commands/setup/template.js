@@ -42,6 +42,9 @@ const template = {
           "babel-preset-stage-1",
           "babel-preset-react",
         ],
+        "plugins": [
+          "babel-preset-react-hmre",
+        ],
       },
       "webpack-production": {
         "presets": [
